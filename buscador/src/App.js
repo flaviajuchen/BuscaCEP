@@ -59,12 +59,12 @@ function App() {
           <span>
             {cep.localidade} - {cep.uf}
           </span>
-          <div>
+          <div className="map">
             {cep && cep.cep && (
               <iframe
                 title="map"
                 src={getMapUrl()}
-                width="500"
+                // width="500"
                 height="350"
                 frameBorder="0"
                 allowFullScreen=""
