@@ -28,7 +28,7 @@ function App() {
       const encodedAddress = encodeURIComponent(
         `${cep.logradouro}, ${cep.localidade}, ${cep.uf}, ${cep.cep}`
       );
-      return `https://www.google.com/maps/embed/v1/place?q=${encodedAddress}&key=${process.env.REACT_APP_MAP_KEY}`;
+      return `https://www.google.com/maps/embed/v1/place?q=${encodedAddress}&key=AIzaSyD1QCQlrkBF-KS7DWhxLvbXVcj-HfnGBqg`;
     }
     return "";
   }
