@@ -9,7 +9,7 @@ function App() {
 
   async function handleSearch() {
     if (input === "") {
-      alert("Digite um CEP válido");
+      alert("Digite um CEP.");
       return;
     }
 
